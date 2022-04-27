@@ -1,6 +1,69 @@
 body {
-    background: #131313;
+    background: #1e1e1e; /* else use #131313 (from that dudes site) */
     -webkit-font-smoothing: antialiased;
+}
+
+.navbar{
+    margin-top: 25px;
+}
+.navbar a.logo{
+    text-decoration: none;
+    color:#e4e4e4;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 200;
+}
+
+.navbar ul.menu li{
+    display: inline;
+    padding: 15px;
+}
+
+.navbar ul.menu li a{
+    text-decoration: none;
+    color:#dcdcaa;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+}
+
+.navbar button.menu-contact{
+    transition: 300ms;
+    background-color: transparent;
+    border-color: #4ec9b0;
+    border-style: solid;
+    border-radius: 8px;
+    color: #4ec9b0;
+    font-family: 'Space Mono', monospace;
+    -webkit-font-smoothing: antialiased;
+    border-width: 1px;
+    padding: 10px;
+}
+
+.navbar button.menu-contact:hover{
+    background-color: #20554a;
+    transition: 300ms;
+}
+
+.above-class-text{
+    color: #6a6a6a;
+    margin-top: 50px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    margin-bottom: 125px;
+}
+
+.above-class-text span.public-class{
+    color:#569cd6;
+}
+
+.above-class-text span.public-class-title{
+    color:#4ec9b0;
+}
+
+.below-class-text p {
+    color: #6a6a6a;
+    margin-top: 125px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
 }
 
 .intro {
@@ -9,12 +72,54 @@ body {
 
 .intro h1 {
     font-size: 50px;
-    margin-top: 250px;
     font-family: "IBM Plex Mono",monospace;
 }
 
 .intro h2 {
     font-size: 30px;
     font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
 }
 
+h2.hi-there-text {
+    font-size: 35px;
+    font-weight: 200;
+}
+
+.intro span.short-about{
+    color:#569cd6; /* 569cd6 is visual studio color */
+}
+
+.intro span.hva-text{
+    color:#dcdcaa;
+}
+
+.intro span.year-text{
+    color:#57a542;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+}
+
+.intro button.intro-contact-button{
+    transition: 300ms;
+    margin-top: 30px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    border-color: #4ec9b0;
+    border-style: solid;
+    border-radius: 8px;
+    font-size: 25px;
+    color: #4ec9b0;
+    font-family: 'Space Mono', monospace;
+    -webkit-font-smoothing: antialiased;
+    border-width: 1px;
+    padding: 10px;
+}
+
+.intro button.intro-contact-button:hover{
+    background-color: #20554a;
+    transition: 300ms;
+}
