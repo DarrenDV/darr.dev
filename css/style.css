@@ -1,0 +1,20 @@
+body {
+    background: #131313;
+    -webkit-font-smoothing: antialiased;
+}
+
+.intro {
+    color: #e4e4e4;
+}
+
+.intro h1 {
+    font-size: 50px;
+    margin-top: 250px;
+    font-family: "IBM Plex Mono",monospace;
+}
+
+.intro h2 {
+    font-size: 30px;
+    font-family: 'Source Code Pro', monospace;
+}
+
