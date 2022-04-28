@@ -25,6 +25,24 @@ body {
     font-weight: 400;
 }
 
+/* .navbar ul.menu li a:hover{
+    border-bottom:2px dotted #f13c34;
+    display: inline-block;
+    position: relative;
+}
+
+.navbar ul.menu li a:after:hover{
+    content: '';
+    width: 100%;
+    border-bottom:2px dotted #f13c34;
+    position: absolute;
+    font-size: 16px;
+    top: 15px; 
+    left: -2px;
+    display: block;
+    height: 4px;
+} */
+
 .navbar button.menu-contact{
     transition: 300ms;
     background-color: transparent;
@@ -35,7 +53,7 @@ body {
     font-family: 'Space Mono', monospace;
     -webkit-font-smoothing: antialiased;
     border-width: 1px;
-    padding: 10px;
+    padding: 10px 15px;
 }
 
 .navbar button.menu-contact:hover{
@@ -116,10 +134,55 @@ h2.hi-there-text {
     font-family: 'Space Mono', monospace;
     -webkit-font-smoothing: antialiased;
     border-width: 1px;
-    padding: 10px;
+    padding: 10px 15px;
 }
 
 .intro button.intro-contact-button:hover{
     background-color: #20554a;
     transition: 300ms;
+}
+
+.about-title span.public-void-text {
+    font-size: 17px;
+    color:#569cd6;
+}
+
+.about-section {
+    color: #e4e4e4;
+    margin-top: 250px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+}
+
+.about-title h1{
+    color:#dcdcaa;
+}
+
+.about-title h2{
+    font-size: 25px;
+}
+
+.projects-title span.public-void-text {
+    font-size: 17px;
+    color:#569cd6;
+}
+
+.project-section {
+    color: #e4e4e4;
+    margin-top: 250px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+}
+
+.projects-title h1{
+    color:#dcdcaa;
+}
+
+.projects-title img.clouds-gif{
+    filter: grayscale(100%);
+}
+
+.projects-title a.project-link{
+    text-decoration: none;
+    color:#6a6a6a;
 }
