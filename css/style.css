@@ -7,6 +7,14 @@ footer {
     display: block;
 }
 
+span.public-void-text {
+    font-size: 17px;
+    color:#569cd6;
+}
+
+
+/* NAVBAR */
+
 .navbar{
     margin-top: 25px;
 }
@@ -88,6 +96,9 @@ footer {
     font-weight: 400;
 }
 
+
+/* INTRO */
+
 .intro {
     color: #e4e4e4;
 }
@@ -146,10 +157,8 @@ h2.hi-there-text {
     transition: 300ms;
 }
 
-.about-section span.public-void-text {
-    font-size: 17px;
-    color:#569cd6;
-}
+
+/* ABOUT */
 
 .about-section {
     color: #e4e4e4;
@@ -164,4 +173,102 @@ h2.hi-there-text {
 
 .about-title h2{
     font-size: 25px;
+}
+
+
+/* CONTACT */
+.contact-section{
+    color: #e4e4e4;
+    margin-top: 250px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 250px;
+}
+
+.contact-section h1{
+    color:#dcdcaa;
+}
+
+.contact-section-content h2{
+    font-size: 25px;
+}
+
+.contact-contact-button{
+    transition: 300ms;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    border-color: #4ec9b0;
+    border-style: solid;
+    border-radius: 8px;
+    font-size: 25px;
+    color: #4ec9b0;
+    font-family: 'Space Mono', monospace;
+    -webkit-font-smoothing: antialiased;
+    border-width: 1px;
+    padding: 10px 15px;
+}
+
+.contact-contact-button:hover{
+    background-color: #20554a;
+    transition: 300ms;
+}
+
+.contact-send-email{
+    font-size: 15px;
+    color: #989898;
+}
+
+.contact-my-socials{
+    margin-top: 50px;
+} 
+
+.contact-my-socials h3{
+    font-size: 25px;
+}
+
+.contact-socials-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+} 
+
+.contact-socials-list li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contact-socials-list li a{
+    text-decoration: none;
+    transition: 200ms;
+    color:#e4e4e4;
+}
+
+.contact-socials-list li a:hover{
+    transition: 200ms;
+    color:#4ec9b0;
+}
+
+
+/* END SECTION */
+
+.designed-and-built a{
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    color:#989898;
+    transition: 200ms;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.designed-and-built a:hover{
+    color:#4ec9b0;
+    transition: 200ms;
 }
