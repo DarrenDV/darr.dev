@@ -1,3 +1,6 @@
+
+/* FEATURED PROJECTS */
+
 .projects-title span.public-void-text {
     font-size: 17px;
     color:#569cd6;
@@ -128,4 +131,94 @@
 
 .project-featured:nth-of-type(2n+1) .project-featured-image{
     grid-column: 1 / 8;
+}
+
+
+
+/* OTHER PROJECTS */
+
+.other-projects{
+    margin-top: 150px;
+}
+
+.other-projects-section-title{
+    text-align: center;
+    color: #dcdcaa;
+    margin-bottom: 50px;
+}
+
+.other-projects ul.projects-other-list{
+    list-style: none;
+    padding: 0px;
+}
+
+.project-box{
+    margin-bottom: 30px;
+}
+
+.project-other{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    padding: 2rem 1.75rem;
+    border-radius: 8px;
+    background-color: #282828;
+}
+
+.project-other .header{
+    margin-bottom: 30px;
+}
+
+.project-other-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.project-other-links{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.project-other-links a{
+    transition: 200ms;
+    text-decoration: none;
+    color: #e4e4e4;
+}
+
+.project-other-links a:hover{
+    transition: 200ms;
+    color: #4ec9b0;
+}
+
+.project-other-title{
+    font-size: 22px;
+}
+
+.project-other-description{
+    font-size: 12px;
+}
+
+.project-other-tech-list{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    -webkit-box-flex: 1;
+    list-style: none;
+    margin: 20px 0px 0px;
+    padding: 0px;
+}
+
+.project-other-tech-list li{
+    font-size: 12px;
+    line-height: 1.75;
+    color: #9a9a9a;
+}
+
+.project-other-tech-list li:not(:last-of-type){
+    margin-right: 15px;
 }

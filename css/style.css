@@ -3,6 +3,10 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+footer {
+    display: block;
+}
+
 .navbar{
     margin-top: 25px;
 }
