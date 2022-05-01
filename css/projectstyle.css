@@ -26,8 +26,9 @@
     font-weight: 400;
 }
 
-.projects-title h1{
+.projects-title h2.project-title-func{
     color:#dcdcaa;
+    font-size: 40px;
 }
 
 .projects-featured-list{

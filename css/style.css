@@ -176,8 +176,9 @@ h2.hi-there-text {
     font-weight: 400;
 }
 
-.about-section h1{
+.about-section h2.about-title-func{
     color:#dcdcaa;
+    font-size: 40px;
 }
 
 .about-title h2{
@@ -209,8 +210,9 @@ h2.hi-there-text {
     margin-bottom: 250px;
 }
 
-.contact-section h1{
+.contact-section h2.contact-title-func{
     color:#dcdcaa;
+    font-size: 40px;
 }
 
 .contact-section-content h2{
