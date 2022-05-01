@@ -21,6 +21,14 @@ span.public-void-text {
 ██   ████ ██   ██   ████   ██████  ██   ██ ██   ██
 */
 
+@media only screen and (max-width: 768px) {
+
+    .navbar{
+        display: none;
+    }
+    
+}
+
 .navbar{
     margin-top: 25px;
 }
@@ -169,6 +177,18 @@ h2.hi-there-text {
 ██   ██ ██████   ██████   ██████     ██   
 */
 
+@media only screen and (max-width: 768px) {
+
+    .about-section{
+        margin-top: 125px !important;
+    }
+
+    .about-darren-picture{
+        display: none;
+    }
+    
+}
+
 .about-section {
     color: #e4e4e4;
     margin-top: 250px;
@@ -209,6 +229,48 @@ h2.hi-there-text {
 ██      ██   ██ ██    ██ ██   ██ ██      ██         ██         ██     
 ██      ██   ██  ██████   █████  ███████  ██████    ██    ███████     
 */
+
+@media only screen and (max-width: 768px) {
+
+    .project-section{
+        margin-top: 125px !important;
+    }
+
+    .project-featured{
+        display: flex !important;
+    }
+
+    .project-featured .project-featured-image{
+        display: none;
+    }
+
+    .project-featured .project-featured-content{
+        text-align: left !important;
+    }
+
+    .project-featured .project-tech-list{
+        justify-content:flex-start !important;
+        margin-left: 15px !important;
+    }
+
+    .project-featured:nth-of-type(2n+1) .project-tech-list{
+        justify-content:flex-start !important;
+        margin-left: 0px !important;
+    }
+
+    .project-featured .project-links{
+        margin-left: 17px !important; 
+    }
+
+    .project-featured:nth-of-type(2n+1) .project-links{
+        justify-content: flex-start !important;
+        margin-left: 15px !important;
+    }
+
+    .project-featured:not(:last-of-type){
+        margin-bottom: 65px !important;
+    }
+}
 
 .projects-title span.public-void-text {
     font-size: 17px;
@@ -361,6 +423,13 @@ h2.hi-there-text {
 ██      ██   ██  ██████   █████  ███████  ██████    ██    ███████
 */
 
+@media only screen and (max-width: 768px) {
+
+    .other-projects{
+        margin-top: 100px !important;
+    }
+}
+
 .other-projects{
     margin-top: 150px;
 }
@@ -461,6 +530,15 @@ h2.hi-there-text {
 ██      ██    ██ ██  ██ ██    ██    ██   ██ ██         ██    
  ██████  ██████  ██   ████    ██    ██   ██  ██████    ██   
 */
+
+@media only screen and (max-width: 768px) {
+
+    .contact-section{
+        margin-top: 125px !important;
+    }
+
+}
+
 .contact-section{
     color: #e4e4e4;
     margin-top: 250px;
