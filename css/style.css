@@ -24,9 +24,12 @@ span.public-void-text {
 @media only screen and (max-width: 768px) {
 
     .navbar{
-        display: none;
+        display: none !important;
     }
     
+    .above-class-text{
+        margin-bottom: 50px !important;
+    }
 }
 
 .navbar{
@@ -108,6 +111,14 @@ span.public-void-text {
 ██ ██   ████    ██    ██   ██  ██████ 
 */
 
+@media only screen and (max-width: 768px) {
+
+    .intro {
+        margin-top: 25px !important;
+        margin-bottom: 220px !important;
+    }    
+}
+
 .intro {
     margin-top: 150px;
     color: #e4e4e4;
@@ -180,18 +191,25 @@ h2.hi-there-text {
 @media only screen and (max-width: 768px) {
 
     .about-section{
-        margin-top: 125px !important;
+        padding-top: 125px !important;
     }
 
     .about-darren-picture{
         display: none;
     }
     
+    .about-extra-text{
+        display: none !important;
+    }
+
+    .about-skills-header{
+        margin-top: 20px;
+    }
 }
 
 .about-section {
     color: #e4e4e4;
-    margin-top: 250px;
+    padding-top: 250px;
     font-family: 'Source Code Pro', monospace;
     font-weight: 400;
 }
@@ -212,6 +230,7 @@ h2.hi-there-text {
 .about-darren-picture{
     width: 80%;
     filter: brightness(75%);
+    border-radius: 8px;
 }
 
 
@@ -233,7 +252,7 @@ h2.hi-there-text {
 @media only screen and (max-width: 768px) {
 
     .project-section{
-        margin-top: 125px !important;
+        padding-top: 125px !important;
     }
 
     .project-featured{
@@ -279,7 +298,7 @@ h2.hi-there-text {
 
 .project-section {
     color: #e4e4e4;
-    margin-top: 250px;
+    padding-top: 250px;
     font-family: 'Source Code Pro', monospace;
     font-weight: 400;
 }
@@ -428,6 +447,12 @@ h2.hi-there-text {
     .other-projects{
         margin-top: 100px !important;
     }
+
+    .project-box{
+        margin-bottom: 50px !important;
+        width: 100% !important
+    }
+
 }
 
 .other-projects{
@@ -534,14 +559,14 @@ h2.hi-there-text {
 @media only screen and (max-width: 768px) {
 
     .contact-section{
-        margin-top: 125px !important;
+        padding-top: 125px !important;
     }
 
 }
 
 .contact-section{
     color: #e4e4e4;
-    margin-top: 250px;
+    padding-top: 250px;
     font-family: 'Source Code Pro', monospace;
     font-weight: 400;
     text-align: center;
@@ -585,6 +610,17 @@ h2.hi-there-text {
 .contact-send-email{
     font-size: 15px;
     color: #989898;
+}
+
+.contact-email-text{
+    text-decoration: none;
+    transition: 200ms;
+    color:#e4e4e4;
+}
+
+.contact-email-text:hover{
+    transition: 200ms;
+    color:#4ec9b0;
 }
 
 .contact-my-socials{
@@ -631,10 +667,6 @@ h2.hi-there-text {
 .contact-resume:hover{
     transition: 200ms;
     color:#4ec9b0;
-    text-decoration: underline;
-    text-decoration-color: red;
-    text-decoration-style: wavy;
-    text-decoration-thickness: 1px;
 }
 
 /* 
