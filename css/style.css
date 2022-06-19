@@ -590,7 +590,7 @@ h2.hi-there-text {
 
 .contact-contact-button{
     transition: 300ms;
-    margin-top: 30px;
+    margin-top: 100px;
     margin-bottom: 30px;
     background-color: transparent;
     background-repeat: no-repeat;
@@ -630,7 +630,7 @@ h2.hi-there-text {
 }
 
 .contact-my-socials{
-    margin-top: 50px;
+    margin-top: 120px;
 } 
 
 .contact-my-socials h3{
