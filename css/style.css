@@ -140,12 +140,14 @@ span.public-void-text {
     font-size: 30px;
     font-family: 'Source Code Pro', monospace;
     font-weight: 400;
+    margin-top: 30px;
 }
 
 .intro h3 {
     font-size: 25px;
     font-family: 'Source Code Pro', monospace;
     font-weight: 500;
+    margin-top: 30px;
 }
 
 .intro a.current-project-link{
@@ -172,11 +174,11 @@ h2.hi-there-text {
     color:#569cd6; /* 569cd6 is visual studio color */
 }
 
-.intro span.hva-text{
+.intro span.degree-text{
     color:#dcdcaa;
 }
 
-.intro span.year-text{
+.intro span.comment-text{
     color:#57a542;
     font-family: 'Source Code Pro', monospace;
     font-weight: 400;
@@ -256,8 +258,8 @@ h2.hi-there-text {
 
 .about-darren-picture{
     width: 80%;
-    filter: brightness(75%);
-    border-radius: 8px;
+    filter: brightness(50%);
+    border-radius: 10px;
 }
 
 
