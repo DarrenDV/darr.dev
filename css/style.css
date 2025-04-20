@@ -151,6 +151,7 @@ span.public-void-text {
 }
 
 .intro a.current-project-link{
+    transition: 300ms;
     font-family: 'Source Code Pro', monospace;
     font-weight: 400;
     color:#4ec9b0;
@@ -634,22 +635,6 @@ h2.hi-there-text {
 .contact-contact-button:hover{
     background-color: #20554a;
     transition: 300ms;
-}
-
-.contact-send-email{
-    font-size: 15px;
-    color: #989898;
-}
-
-.contact-email-text{
-    text-decoration: none;
-    transition: 200ms;
-    color:#e4e4e4;
-}
-
-.contact-email-text:hover{
-    transition: 200ms;
-    color:#4ec9b0;
 }
 
 .contact-my-socials{
